@@ -1,12 +1,12 @@
 
 
-export const ItemListContainer =(props)=> {
-    const saludo = ['HOLA']
-return(
-    <div>
-        <p>HOLA CAROLA</p>
-    </div>
-)
+export const ItemListContainer = (props) => {
+
+    return (
+        <div>
+            <p>HOLA {props.persona}</p>
+        </div>
+    )
 }
 
 
