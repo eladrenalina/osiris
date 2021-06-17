@@ -1,11 +1,12 @@
-export function ItemListContainer ()
-{
-    return(
+
+
+export const ItemListContainer =(props)=> {
+    const saludo = ['HOLA']
+return(
     <div>
-        <h1>
-            HOLA CAROLA
-        </h1>
+        <p>HOLA CAROLA</p>
     </div>
-    )
+)
 }
+
 

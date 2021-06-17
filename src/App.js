@@ -6,10 +6,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {ItemListContainer} from './components/ItemListContainer/ItemListContainer';
 
 function App() {
+  
   return (
      <div>
     <NavBar/>
-    <ItemListContainer/>
+    <ItemListContainer />
     
     </div>
   );
