@@ -1,14 +1,13 @@
-import logo from './logo.svg';
+
 
 import './App.css';
 import { NavBar } from './components/navbar/Navbar.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
      <div>
-    <NavBar>
-      Ofertas
-    </NavBar>
+    <NavBar/>
     </div>
   );
 }
