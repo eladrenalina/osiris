@@ -10,7 +10,7 @@ function App() {
   return (
      <div>
     <NavBar/>
-    <ItemListContainer persona="Lucas"/>
+    <ItemListContainer persona="LUCAS"/>
     
     </div>
   );

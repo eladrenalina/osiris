@@ -4,7 +4,7 @@ export const ItemListContainer = (props) => {
 
     return (
         <div>
-            <p>HOLA {props.persona}</p>
+            <h1>HOLA {props.persona}</h1>
         </div>
     )
 }
