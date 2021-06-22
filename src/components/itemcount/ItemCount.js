@@ -2,19 +2,29 @@ import { useState } from "react"
 
 
 export const ItemCount = (props) => {
-const [valor, setValor] = useState(props.initial);
+    const [valor, setValor] = useState(props.initial);
 
 
-function onAdd{
+    function onAdd() {
+        if (valor < props.stock) {
 
-}
-function onSubstract{
+            setValor(parseInt(valor) + 1)
+        }
+    }
 
-}
-return (
-    <div>
-        <button>-</button>
-        <input type="text"
-    </div>
-)
+    function onSubstract() {
+        if (valor > 1) {
+
+            setValor(parseInt(valor) - 1)
+        } else {
+            alert("la cantidad no puede ser menor a 1");
+        }
+    }
+    return (
+        <div>
+            <button className="btn btn-primary" onClick={onSubstract}> - </button>
+            <input type="text" value={valor} />
+            <button className="btn btn-primary" onClick={onAdd}> + </button>
+        </div>
+    )
 }
