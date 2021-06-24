@@ -1,18 +1,24 @@
 import { ItemCount } from "../itemcount/ItemCount";
 
-export function Card(props) {
+function Card({ product }) {
+
+
     return (
         <div className="card">
-            <div>
-                <img src="src\img\montgomery.jpg" className="card-img" />
-            </div>
-            <div className="body">
-                <h4>Montgomery</h4>
-                <ItemCount stock="10" initial="1" />
-                <></>
-                <a href="#" className='btn btn-primary'>GO AHEAD</a>
-            </div>
+
+            <h3>{product.title}</h3>
+            <img src={product.pictureURL} />
+            <h5>{product.description}</h5>
+            <h3>{product.price}</h3>
+            <h4>Montgomery</h4>
+            <ItemCount stock={product.stock} id={product.id} />
+
+            <br />
+            <a href="#" className='btn btn-primary'>GO AHEAD</a>
+
 
         </div>
     )
 }
+
+export default Card;
