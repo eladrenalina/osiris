@@ -7,9 +7,9 @@ function ItemListContainer({ greeting, buyProduct }) {
 
     useEffect(async () => {
         const response = await fetch("./json/products.json")
-        const json = await response.json()
-        setProducts(json)
-        console.log(json)
+        const result = await response.json()
+        setProducts(result)
+        console.log(result)
     }, [])
 
     return (
