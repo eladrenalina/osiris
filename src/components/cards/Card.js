@@ -5,6 +5,8 @@ function Card({ product }) {
 
 
     return (
+
+        
         <div className="container-fluid">
 
             <h3>{product.title}</h3>

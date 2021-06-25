@@ -23,7 +23,7 @@ export const ItemCount = (props) => {
     return (
         <div>
             <button className="btn btn-primary" onClick={onSubstract}> - </button>
-            <input type="text" value={valor} />
+            <input type="text" defaultValue={valor} />
             <button className="btn btn-primary" onClick={onAdd}> + </button>
         </div>
     )
