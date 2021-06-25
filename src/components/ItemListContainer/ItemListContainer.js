@@ -1,7 +1,7 @@
 import { useState,useEffect } from "react";
 import {ItemList} from '../itemList/ItemList.js';
 
-function ItemListContainer({ greeting, buyProduct }) {
+export const ItemListContainer=({ greeting })=> {
 
     const [products, setProducts] = useState([])
 
@@ -22,8 +22,6 @@ function ItemListContainer({ greeting, buyProduct }) {
         </div>
     )
 }
-
-export default ItemListContainer
 
 
 

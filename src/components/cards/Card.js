@@ -1,20 +1,20 @@
 import { ItemCount } from "../itemcount/ItemCount";
+import './Card.css';
 
 function Card({ product }) {
 
 
     return (
-        <div className="card">
+        <div className="container-fluid">
 
             <h3>{product.title}</h3>
-            <img src={product.pictureURL} />
+            <img className="img" src={product.pictureURL} />
             <h5>{product.description}</h5>
             <h3>{product.price}</h3>
-            <h4>Montgomery</h4>
-            <ItemCount stock={product.stock} id={product.id} />
+            <ItemCount stock={product.stock} id={product.id} initial={"1"} />
 
             <br />
-            <a href="#" className='btn btn-primary'>GO AHEAD</a>
+            <a href="#" className='btn btn-dark'>GO AHEAD</a>
 
 
         </div>
