@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "title":"Montgomery",
+        "description": "Color negro",
+        "price": 5000,
+        "stock": 5,
+        "pictureURL":"https://static.dafiti.com.ar/p/equus-7457-457265-1-product.jpg"
+
+    },
+    {
+        "id": 1,
+        "title":"Montgomery",
+        "description": "Color negro",
+        "price": 5000,
+        "stock": 5,
+        "pictureURL":"https://static.dafiti.com.ar/p/equus-7457-457265-1-product.jpg"
+
+    },{
+        "id": 1,
+        "title":"Montgomery",
+        "description": "Color negro",
+        "price": 5000,
+        "stock": 5,
+        "pictureURL":"https://static.dafiti.com.ar/p/equus-7457-457265-1-product.jpg"
+
+    }
+]
