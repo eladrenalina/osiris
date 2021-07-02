@@ -19,7 +19,7 @@ export const ItemListContainer=({ greeting })=> {
   return (
     <div>
       <h1> {greeting}</h1>
-      <div>
+      <div className="p-3 mb-2 bg-dark text-white">
         {
           !!products.length
             ? <ItemList products={products} />
