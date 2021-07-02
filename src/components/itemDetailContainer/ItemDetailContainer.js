@@ -9,7 +9,7 @@ export const ItemDetailContainer = (props) => {
     const [products, setProducts] = useState([])
     useEffect(() => {
         const getProducts = async () => {
-            const response = await fetch("https://challenge-meli-backend.herokuapp.com/api/items?q=iphone"
+            const response = await fetch("https://challenge-meli-backend.herokuapp.com/api/items?q=tapado"
                 );
             const products = await response.json();
             setProducts(products.items);
