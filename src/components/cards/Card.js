@@ -1,5 +1,7 @@
 import { ItemCount } from "../itemcount/ItemCount";
 import './Card.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 function Card({ product }) {
 
@@ -16,7 +18,7 @@ function Card({ product }) {
                 <ItemCount stock={product.stock} id={product.id} initial={"1"} />
 
                 <br />
-                <a href="#" className='btn btn-light'>GO AHEAD</a>
+                <a href="#" className='btn btn-light'>GO AHEAD <FontAwesomeIcon icon={faShoppingCart} /></a>
 
 
             </div>
