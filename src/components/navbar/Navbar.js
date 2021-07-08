@@ -12,9 +12,9 @@ export const NavBar = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
-          <a className="nav-item nav-link active" href="#">Home <span className="sr-only">(current)</span></a>
-          <a className="nav-item nav-link" href="#">Features</a>
-          <a className="nav-item nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">Disabled</a>
+          <a className="nav-item nav-link active" href="/">Home <span className="sr-only">(current)</span></a>
+          <a className="nav-item nav-link" href="/detail">Otros Productos</a>
+          <a className="nav-item nav-link disabled" href="/" tabIndex="-1" aria-disabled="true">Disabled</a>
           <CardWidget/><a className="nav-item nav-link" ></a>
         </div>
       </div>

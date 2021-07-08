@@ -11,9 +11,9 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <BrowserRouter>
+        <NavBar />
       <Switch>
         <Route exact path="/" >
-        <NavBar />
           <ItemListContainer />
         </Route>
         {/* <div className="p-3 mb-2 bg-secondary text-white"> */}
